@@ -1,7 +1,6 @@
 from collections import defaultdict
 input = open("input.txt","r")
 
-
 total = 0
 left = []
 
@@ -14,6 +13,5 @@ for line in input:
 
 for num in left:
     total += num * counts[num]
-
 
 print(total)
